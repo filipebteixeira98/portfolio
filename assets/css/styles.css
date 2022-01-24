@@ -70,6 +70,16 @@ img {
   display: block;
 }
 
+.bd-grid {
+  max-width: 1024px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-column-gap: 2rem;
+  width: calc(100% - 2rem);
+  margin-left: var(--mb-2);
+  margin-right: var(--mb-2);
+}
+
 .l-header {
   width: 100%;
   position: fixed;
@@ -130,10 +140,6 @@ img {
   background-color: var(--first-color);
 }
 
-.show {
-  right: 0;
-}
-
 @media screen and (max-width: 768px) {
   .nav__menu {
     position: fixed;
@@ -145,6 +151,10 @@ img {
     background-color: var(--second-color);
     transition: 0.5s;
   }
+}
+
+.show {
+  right: 0;
 }
 
 @media screen and (min-width: 768px) {
