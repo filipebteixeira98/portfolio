@@ -327,6 +327,22 @@ img {
   width: 60%;
 }
 
+.skills__react {
+  width: 60%;
+}
+
+.skills__nodejs {
+  width: 50%;
+}
+
+.skills__docker {
+  width: 25%;
+}
+
+.skills__google-cloud {
+  width: 10%;
+}
+
 .skills__ux {
   width: 25%;
 }
